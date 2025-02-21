@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voltum | Электромонтаж</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем свой CSS -->
+</head>
+<body>
+
+    <!-- Навигация (без логотипа) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-us">Почему выбирают нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#visualization">Пример электрощита</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <header class="hero text-white text-center">
+        <div class="container">
+            <img src="banner.png" alt="Voltum" class="banner-img">
+            <h1>Электромонтаж любой сложности</h1>
+            <p class="lead">Быстро, надежно, с гарантией!</p>
+            <a href="#contact" class="btn btn-warning btn-lg">Заказать звонок</a>
+        </div>
+    </header>
+
+    <!-- О компании -->
+    <section id="about" class="py-5">
+        <div class="container text-center text-white">
+            <h2>О компании</h2>
+            <p>Мы предоставляем качественные услуги по электромонтажу. Даем гарантию и выполняем работы точно в срок.</p>
+        </div>
+    </section>
+
+    <!-- Почему выбирают нас -->
+    <section id="why-us" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white">Почему выбирают нас</h2>
+            <ul class="custom-list">
+                <li>Мы работаем по договору</li>
+                <li>Оплата любым способом (по карте, наличными, на счет)</li>
+                <li>Гарантия 3 года</li>
+                <li>Работаем только по ПУЭ и СНиПу</li>
+                <li>Маркировка всего щита</li>
+                <li>Каждый автомат затягиваем динамометрической отверткой</li>
+                <li>Сборка щита происходит согласно визуализации, которую мы для вас подготовили</li>
+                <li>Доставка материала бесплатная</li>
+                <li>Мы уверены в своей работе и несем за нее ответственность. Для нас наша репутация и Ваш отзыв на первом месте</li>
+                <li>Используем современные методы работы. Сверлим с насадками пылеудаления, штробим с пылесосом, прокладка трасс с помощью прямого монтажа</li>
+                <li>Прокладка трасс осуществляется в гофре</li>
+                <li>Делаем отдельные линии для слаботочных и силовых систем во избежание наводок</li>
+            </ul>
+
+            <div class="text-center mt-4">
+                <a href="https://www.instagram.com/voltum_rnd/" target="_blank" class="btn btn-primary">
+                    Перейти в Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Визуализация электрощита -->
+    <section id="visualization" class="py-5 bg-dark">
+        <div class="container text-center">
+            <h2 class="mb-4 text-white">Пример сборки стандартного электрощита</h2>
+            <p class="text-white">На изображении представлен пример визуализации сборки электрощита.</p>
+            <img src="electro_shield.png" alt="Пример сборки электрощита" class="img-fluid shadow-lg">
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="text-white">Свяжитесь с нами</h2>
+            <p class="text-white">Оставьте заявку, и мы перезвоним вам в ближайшее время.</p>
+            <form class="row justify-content-center">
+                <div class="col-md-6">
+                    <input type="text" class="form-control mb-3" placeholder="Ваше имя">
+                    <input type="tel" class="form-control mb-3" placeholder="Ваш телефон">
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Voltum | Электромонтаж. Все права защищены.</p>
+    </footer>
+
+    <!-- Подключение Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

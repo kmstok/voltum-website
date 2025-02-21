@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.service-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    font-size: 14px;
+}
+.navbar-brand img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+.list-group-item {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+}
+
+.list-group-item::before {
+    content: "⚡";
+    margin-right: 10px;
+    color: #FFD700;
+}
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.banner-img {
+    max-width: 60%;  /* Уменьшенный размер баннера */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+}
+
+.list-group-item::before {
+    content: "⚡";
+    margin-right: 10px;
+    color: #FFD700;
+}
+body {
+    background-color: #0D1B2A; /* Тёмно-синий фон */
+    color: white;
+}
+
+.banner-img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background-color: #1B263B;
+    color: white;
+    border: none;
+}
+
+.list-group-item {
+    background-color: #1B263B;
+    color: white;
+    border: none;
+}
+
+footer {
+    background-color: #0D1B2A;
+}
