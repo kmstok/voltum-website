@@ -2,25 +2,26 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Voltum | Электромонтаж</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- Подключаем свой CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Навигация (без логотипа) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto text-center">
                     <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
                     <li class="nav-item"><a class="nav-link" href="#why-us">Почему выбирают нас</a></li>
                     <li class="nav-item"><a class="nav-link" href="#visualization">Пример электрощита</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Наша команда</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
                 </ul>
             </div>
@@ -28,7 +29,7 @@
     </nav>
 
     <!-- Главный экран -->
-    <header class="hero text-white text-center">
+    <header class="hero text-white text-center section section-dark">
         <div class="container">
             <img src="banner.png" alt="Voltum" class="banner-img">
             <h1>Электромонтаж любой сложности</h1>
@@ -38,7 +39,7 @@
     </header>
 
     <!-- О компании -->
-    <section id="about" class="py-5">
+    <section id="about" class="section section-light">
         <div class="container text-center text-white">
             <h2>О компании</h2>
             <p>Мы предоставляем качественные услуги по электромонтажу. Даем гарантию и выполняем работы точно в срок.</p>
@@ -46,7 +47,7 @@
     </section>
 
     <!-- Почему выбирают нас -->
-    <section id="why-us" class="py-5">
+    <section id="why-us" class="section section-dark">
         <div class="container">
             <h2 class="text-center mb-4 text-white">Почему выбирают нас</h2>
             <ul class="custom-list">
@@ -58,34 +59,27 @@
                 <li>Каждый автомат затягиваем динамометрической отверткой</li>
                 <li>Сборка щита происходит согласно визуализации, которую мы для вас подготовили</li>
                 <li>Доставка материала бесплатная</li>
-                <li>Мы уверены в своей работе и несем за нее ответственность. Для нас наша репутация и Ваш отзыв на первом месте</li>
-                <li>Используем современные методы работы. Сверлим с насадками пылеудаления, штробим с пылесосом, прокладка трасс с помощью прямого монтажа</li>
+                <li>Мы уверены в своей работе и несем за нее ответственность</li>
+                <li>Используем современные методы работы</li>
                 <li>Прокладка трасс осуществляется в гофре</li>
-                <li>Делаем отдельные линии для слаботочных и силовых систем во избежание наводок</li>
+                <li>Делаем отдельные линии для слаботочных и силовых систем</li>
             </ul>
-
-            <div class="text-center mt-4">
-                <a href="https://www.instagram.com/voltum_rnd/" target="_blank" class="btn btn-primary">
-                    Перейти в Instagram
-                </a>
-            </div>
         </div>
     </section>
 
-    <!-- Визуализация электрощита -->
-    <section id="visualization" class="py-5 bg-dark">
-        <div class="container text-center">
-            <h2 class="mb-4 text-white">Пример сборки стандартного электрощита</h2>
-            <p class="text-white">На изображении представлен пример визуализации сборки электрощита.</p>
-            <img src="electro_shield.png" alt="Пример сборки электрощита" class="img-fluid shadow-lg">
+    <!-- Наша команда -->
+    <section id="team" class="section section-dark text-center">
+        <div class="container">
+            <h2 class="text-white">Наша команда</h2>
+            <p class="text-white">Опытные электрики с многолетним стажем</p>
+            <img src="komanda.png" alt="Наша команда" class="team-img">
         </div>
     </section>
 
     <!-- Контакты -->
-    <section id="contact" class="py-5">
+    <section id="contact" class="section section-light">
         <div class="container text-center">
             <h2 class="text-white">Свяжитесь с нами</h2>
-            <p class="text-white">Оставьте заявку, и мы перезвоним вам в ближайшее время.</p>
             <form id="contact-form" class="row justify-content-center">
                 <div class="col-md-6">
                     <input type="text" class="form-control mb-3" id="name" placeholder="Ваше имя">
